@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+li {
+  border: solid 2px;
+  padding: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: green;
+  color: white;
+  border-color: blueviolet;
+}
+
+.Courses-ui {
+  border: 2px solid black;
+}
+
+.Courses-ui > nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+.Courses-ui > nav span {
+  display: block;
+  cursor: pointer;
+}
+
+.Courses-ui > nav span.active {
+  border-bottom: 5px solid;
+  background-color: gray;
+  color: black;
+}
+
+.details {
+  padding: 8px 16px;
+}
+
+.list {
+  border: 2px solid;
+  display: grid;
+  cursor: pointer;
+  list-style: none;
+}
+
+.list .active {
+  border-bottom: 5px solid;
+  background-color: gray;
+  color: black;
+}
+
+#spn {
+  border: 2px solid;
+  background-color: red;
+}
+
+pre{
+  color: black;
+  border: 2px solid;
+  border-radius: 6px;
+}
